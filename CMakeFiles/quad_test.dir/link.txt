@@ -1,0 +1,1 @@
+/usr/bin/clang++ CMakeFiles/quad_test.dir/quad_test.cpp.o -o quad_test  lib/libgtest_main.a lib/libgtest.a -lpthread 

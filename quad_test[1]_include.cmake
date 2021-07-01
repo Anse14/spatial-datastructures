@@ -1,0 +1,5 @@
+if(EXISTS "/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/quad_test[1]_tests.cmake")
+  include("/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/quad_test[1]_tests.cmake")
+else()
+  add_test(quad_test_NOT_BUILT quad_test_NOT_BUILT)
+endif()

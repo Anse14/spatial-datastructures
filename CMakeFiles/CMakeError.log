@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_068c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_068c5.dir/build.make CMakeFiles/cmTC_068c5.dir/build
+make[1]: se entra en el directorio '/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_068c5.dir/src.c.o
+/usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_068c5.dir/src.c.o -MF CMakeFiles/cmTC_068c5.dir/src.c.o.d -o CMakeFiles/cmTC_068c5.dir/src.c.o -c /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_068c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_068c5.dir/link.txt --verbose=1
+/usr/bin/clang -rdynamic CMakeFiles/cmTC_068c5.dir/src.c.o -o cmTC_068c5 
+/usr/bin/ld: CMakeFiles/cmTC_068c5.dir/src.c.o: en la función `main':
+src.c:(.text+0x22): referencia a `pthread_create' sin definir
+/usr/bin/ld: src.c:(.text+0x2b): referencia a `pthread_detach' sin definir
+/usr/bin/ld: src.c:(.text+0x34): referencia a `pthread_cancel' sin definir
+/usr/bin/ld: src.c:(.text+0x41): referencia a `pthread_join' sin definir
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_068c5.dir/build.make:100: cmTC_068c5] Error 1
+make[1]: se sale del directorio '/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_068c5/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbe45/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbe45.dir/build.make CMakeFiles/cmTC_fbe45.dir/build
+make[1]: se entra en el directorio '/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbe45.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_fbe45.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_fbe45.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_fbe45.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbe45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbe45.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_fbe45.dir/CheckFunctionExists.c.o -o cmTC_fbe45  -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_fbe45.dir/build.make:100: cmTC_fbe45] Error 1
+make[1]: se sale del directorio '/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fbe45/fast] Error 2
+
+
+
