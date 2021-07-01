@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest
+CXX_INCLUDES = -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googlemock/include -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest -isystem /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googlemock
 
 CXX_FLAGS = -std=gnu++17
 

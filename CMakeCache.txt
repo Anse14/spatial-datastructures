@@ -296,13 +296,13 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-build/googlemock
+gmock_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googlemock
+gmock_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -311,16 +311,16 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-build
+googletest-distribution_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src
+googletest-distribution_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-build/googletest
+gtest_BINARY_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest
+gtest_SOURCE_DIR:STATIC=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -548,7 +548,7 @@ _Python_EXECUTABLE:INTERNAL=/usr/bin/python3.9
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;5;64;;cpython-39-x86_64-linux-gnu;/usr/lib/python3.9;/usr/lib/python3.9;/usr/lib/python3.9/site-packages;/usr/lib/python3.9/site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=0820be857fee647b3d54576d0160a80e
-generated_dir:INTERNAL=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-build/googletest/generated
+generated_dir:INTERNAL=/home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/quad_test.dir/quad_test.cpp.o.d"
   "quad_test"
   "quad_test.pdb"
-  "quad_test[1]_tests.cmake"
 )
 
 # Per-language clean rules from dependency scanning.

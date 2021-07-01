@@ -1,6 +1,6 @@
 CMakeFiles/quad_test.dir/quad_test.cpp.o: \
   /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/quad_test.cpp \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/cstddef \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -174,8 +174,8 @@ CMakeFiles/quad_test.dir/quad_test.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stl_vector.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stl_bvector.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/vector.tcc \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-internal.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-port.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/stdlib.h \
   /usr/include/string.h /usr/include/strings.h /usr/include/sys/stat.h \
   /usr/include/bits/stat.h /usr/include/bits/struct_stat.h \
@@ -201,8 +201,8 @@ CMakeFiles/quad_test.dir/quad_test.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/codecvt.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/locale_facets_nonio.tcc \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/locale_conv.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
   /usr/include/unistd.h /usr/include/bits/posix_opt.h \
   /usr/include/bits/environments.h /usr/include/bits/confname.h \
   /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
@@ -240,17 +240,17 @@ CMakeFiles/quad_test.dir/quad_test.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/set \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stl_set.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stl_multiset.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-message.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-filepath.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-string.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/cxxabi.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cxxabi_tweaks.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-death-test.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-matchers.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/atomic \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-printers.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/functional \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/std_function.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/unordered_map \
@@ -261,17 +261,17 @@ CMakeFiles/quad_test.dir/quad_test.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/algorithmfwd.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stl_heap.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/uniform_int_dist.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-param-test.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/iterator \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/bits/stream_iterator.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/internal/gtest-param-util.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/cassert \
   /usr/include/assert.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
-  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-test-part.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest_prod.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest-typed-test.h \
+  /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/googletest/googletest/include/gtest/gtest_pred_impl.h \
   /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/QuadNode.h \
   /home/anxy/cursos/EDA/labs/lab5/spatial-datastructures/Point.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/cmath \
